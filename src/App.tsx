@@ -170,7 +170,7 @@ const HACK_LINES = [
   "> bypassing kernel guard ............ OK",
   "> injecting payload [██████████] 100%",
   "",
-  "Hacked by ArbuzDev...",
+  "Hacked by Arbuz...",
   "Send a message to Discord: @catzhenya4 to unlock your system.",
 ];
 
@@ -358,7 +358,7 @@ function ProfileCard({ views }: { views: number }) {
             dev • night owl • breaking things since 2025
           </p>
 
-          {/* Stats line: [👁️ 72] | [📍 Paradise] */}
+          {/* Stats line: [👁️ 72] | [📍 Uzbekistan] */}
           <div className="flex items-center gap-2.5 mt-3.5 font-pixel text-lg sm:text-xl text-white/80">
             <span className="badge inline-flex items-center gap-1.5 px-2.5 py-0.5 leading-none">
               <EyeIcon />
@@ -389,7 +389,7 @@ function ProfileCard({ views }: { views: number }) {
         </button>
 
         <a
-          href="https://donationalerts.com"
+          href="https://www.donationalerts.com/r/arbuzhelp"
           target="_blank"
           rel="noreferrer noopener"
           className="donate-btn inline-flex items-center justify-center gap-2 min-w-[150px] px-4 py-1.5 font-pixel text-xl leading-none tracking-wider"
