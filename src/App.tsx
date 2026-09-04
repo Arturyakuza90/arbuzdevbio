@@ -367,7 +367,7 @@ function ProfileCard({ views }: { views: number }) {
             <span className="text-white/25">|</span>
             <span className="badge inline-flex items-center gap-1.5 px-2.5 py-0.5 leading-none">
               <PinIcon />
-              <span className="pt-[2px]">Paradise</span>
+              <span className="pt-[2px]">Uzbekistan</span>
             </span>
           </div>
         </div>
