@@ -166,12 +166,12 @@ function DiscordIcon() {
 type Stage = "bsod" | "glitch" | "hack" | "unlocking" | "done";
 
 const HACK_LINES = [
-  "> root@arbuzdev:~# ./breach --target=localhost",
+  "> root@arbuz:~# ./breach --target=localhost",
   "> bypassing kernel guard ............ OK",
   "> injecting payload [██████████] 100%",
   "",
   "Hacked by Arbuz...",
-  "Send a message to Discord: @catzhenya4 to unlock your system.",
+  "Send a message to Discord: @root.arbuz to unlock your system.",
 ];
 
 function useTypewriter(active: boolean, lines: string[], speed = 28) {
@@ -385,7 +385,7 @@ function ProfileCard({ views }: { views: number }) {
           title="Discord: @catzhenya4 (click to copy)"
         >
           <DiscordIcon />
-          <span className="pt-[2px]">@catzhenya4</span>
+          <span className="pt-[2px]">@root.arbuz</span>
         </button>
 
         <a
