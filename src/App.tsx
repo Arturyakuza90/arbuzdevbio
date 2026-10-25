@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 /*  View counter (localStorage, starts at 72, +1 on every load)        */
 /* ------------------------------------------------------------------ */
 const VIEWS_KEY = "arbuzdev_profile_views";
-const VIEWS_START = 13;
+const VIEWS_START = 83;
 let viewsCommitted = false; // guards against double-run in React StrictMode
 
 function readAndBumpViews(): number {
